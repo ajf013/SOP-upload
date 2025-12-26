@@ -1,0 +1,161 @@
+.dashboard_container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 80vh;
+}
+
+.controls_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.search_bar {
+    width: 60%;
+    min-width: 300px;
+}
+
+.search_bar input {
+    border-radius: 25px !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.dark .search_bar input {
+    background: rgba(50, 50, 50, 0.9) !important;
+    color: white !important;
+}
+
+.add_btn {
+    box-shadow: 0 4px 15px rgba(242, 113, 28, 0.4) !important;
+    transition: transform 0.2s ease !important;
+}
+
+.add_btn:hover {
+    transform: translateY(-2px);
+}
+
+.sop_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+
+.card_actions {
+    display: flex !important;
+    gap: 15px !important;
+    padding: 10px !important;
+    justify-content: center;
+}
+
+.action_btn {
+    transition: all 0.3s ease !important;
+    border-radius: 8px !important;
+}
+
+.action_btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.sop_card {
+    border-radius: 15px !important;
+    border: none !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    backdrop-filter: blur(10px);
+}
+
+/* Light mode card background */
+.sop_card {
+    background: rgba(255, 255, 255, 0.8) !important;
+}
+
+.dark .sop_card {
+    background: rgba(40, 40, 40, 0.6) !important;
+    /* Made more transparent */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Background Image for Dark Mode */
+.app_container.dark {
+    background: url('/dark-bg.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Background Image for Light Mode */
+.app_container.light {
+    background: url('/light-bg.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Ensure container allows background to show */
+.dark .dashboard_container {
+    background: transparent !important;
+}
+
+.dark .sop_card .content {
+    background: transparent !important;
+}
+
+.dark .sop_card .header,
+.dark .sop_card .meta,
+.dark .sop_card .description {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.sop_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Upload Modal Styles */
+.upload_actions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.file_upload_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.file_types_hint,
+.google_hint {
+    font-size: 0.85em;
+    color: #666;
+    margin: 0;
+}
+
+.upload_btn,
+.google_btn {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+}
+
+.or_divider {
+    color: #888;
+    font-weight: bold;
+    position: relative;
+    padding: 10px;
+}

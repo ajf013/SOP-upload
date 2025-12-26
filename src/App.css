@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+  --light-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  --dark-bg: linear-gradient(135deg, #232526 0%, #414345 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+}
+
+.app_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.5s ease;
+}
+
+.app_container.light {
+  background: var(--light-bg);
+  color: #333;
+}
+
+.app_container.dark {
+  background: var(--dark-bg);
+  color: #f0f0f0;
+}
+
+.main_content {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
