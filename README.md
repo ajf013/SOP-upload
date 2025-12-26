@@ -2,6 +2,8 @@
 
 A modern, responsive dashboard for managing Standard Operating Procedures (SOPs) for Azure Cloud Operations. Built with React, Vite, and Semantic UI.
 
+---
+
 ## Features
 
 -   **SOP Management**: Upload PDF and Word documents directly from your local device.
@@ -14,6 +16,8 @@ A modern, responsive dashboard for managing Standard Operating Procedures (SOPs)
 -   **Responsive Design**: Fully responsive layout that works on desktops and tablets.
 -   **PWA Ready**: Configured with Vite PWA plugin for offline capabilities (service worker registration required).
 
+---
+
 ## Tech Stack
 
 -   **Frontend**: React.js
@@ -21,6 +25,15 @@ A modern, responsive dashboard for managing Standard Operating Procedures (SOPs)
 -   **UI Framework**: Semantic UI React
 -   **Animations**: AOS (Animate On Scroll)
 -   **Styling**: CSS Modules & Custom CSS
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Live Site:**  
+https://azuresop.netlify.app/
+
+---
 
 ## Installation
 
@@ -41,6 +54,8 @@ A modern, responsive dashboard for managing Standard Operating Procedures (SOPs)
     ```
     The app will run at `http://localhost:3000`.
 
+---
+
 ## Usage
 
 ### Adding an SOP
@@ -58,6 +73,8 @@ A modern, responsive dashboard for managing Standard Operating Procedures (SOPs)
 1.  Click the **"Delete"** button on the SOP card.
 2.  Confirm the deletion in the prompt.
 
+---
+
 ## Project Structure
 
 ```
@@ -74,7 +91,17 @@ public/
 ├── dark-bg.png          # Dark mode background
 └── light-bg.png         # Light mode background
 ```
+---
 
 ## License
 
 MIT
+
+---
+
+## You can reach out 😊😊
+Feel free to contact me about the problems. I will try to help as much as I can 😉
+
+[![Linkedin Badge](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajf013-francis-cruz/)
+[![Mail Badge](https://img.shields.io/badge/email-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:furkanozbek1995@gmail.com)](mailto:cruzmma2021@gmail.com)
+[![Github Badge](https://img.shields.io/badge/github-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ajf013)
